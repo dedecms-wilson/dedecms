@@ -1,8 +1,8 @@
 <?php
-$cfg_basehost = 'http://localhost';
-$cfg_cmspath = '/uploads';
-$cfg_cookie_encode = 'NeNC4WnFdUdBEsr2XgdKODWdGtQW9kF4';
-$cfg_indexurl = '/uploads';
+$cfg_basehost = 'http://localhost:8081';
+$cfg_cmspath = '/dedecms';
+$cfg_cookie_encode = 'sV2rk5LybwMqXotcdwndEHAiCiPEco';
+$cfg_indexurl = '/dedecms';
 $cfg_backup_dir = 'backupdata';
 $cfg_indexname = '主页';
 $cfg_webname = '我的网站';

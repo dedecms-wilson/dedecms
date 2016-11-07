@@ -1,3 +1,0 @@
-<?php
-$selModule = "606c658db048ea7328ffe1c7ae2a732f,0a7bea5dbe571d35def883cbec796437,59155be87ea60c5c65ec1f7a46a0fc9d,7badb72a3ff79af2a7112beee60cb970,8964eda9013d1df0afea08ed63243436,be722dbfa3cb3cb5628aab2d767ff62e"; 
-?>
