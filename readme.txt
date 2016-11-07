@@ -1,5 +1,5 @@
 ﻿ ----------------------------------------
-|     DedeCMS 产品使用说明               |
+|     DedeCMS 产品使用说明     (123456789)          |
  ----------------------------------------
 
 一、平台需求
@@ -50,24 +50,24 @@ DedeCMS官方主站       www.dedecms.com
 上海卓卓网络科技      www.desdev.cn
 
 四、导出数据库用mysqldump命令（注意mysql的安装路径，即此命令的路径）：
-
+db 目录: 存储数据库文件
 
 一、导出数据和表结构：
 mysqldump -u用户名 -p密码 数据库名 > 数据库名.sql
-#/usr/local/mysql/bin/   mysqldump -uroot -p abc > abc.sql
+#/usr/local/mysql/bin/   mysqldump -uroot -p dedecms1 > dedecmsv57utf8sp1.sql
 
 二、导入数据库
 1、首先建空数据库
-mysql>create database abc;
+mysql>create database dedecmsv57utf8sp1;
 
 2、导入数据库
 方法一：
 （1）选择数据库
-mysql>use abc;
+mysql>use dedecmsv57utf8sp1;
 （2）设置数据库编码
 mysql>set names utf8;
 （3）导入数据（注意sql文件的路径）
-mysql>source /home/abc/abc.sql;
+mysql>source C:\wamp\www\dedecms\db\dedecmsv57utf8sp1.sql;
 方法二：
 mysql -u用户名 -p密码 数据库名 < 数据库名.sql
-#mysql -uabc_f -p abc < abc.sql
+#mysql -uroot -p dedecmsv57utf8sp1 < dedecmsv57utf8sp1.sql

@@ -2005,7 +2005,7 @@ CREATE TABLE `dede_purview` (
   `rank` smallint(6) DEFAULT NULL,
   `pkey` varchar(30) CHARACTER SET latin1 NOT NULL,
   `pvalue` text NOT NULL,
-  KEY `pkey` (`pkey`) USING BTREE
+  KEY `pkey` USING BTREE (`pkey`) 
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
